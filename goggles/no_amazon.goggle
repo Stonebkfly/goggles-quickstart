@@ -1,0 +1,10 @@
+! name: No Amazon
+! description: Rerank results to remove pages / threads hosted on Amazon.
+! public: false
+! author: Stonebkfly
+
+$discard,site=amazon.co.uk
+$discard,site=amazon.com
+$discard,site=amazon.com.au
+$discard,site=amazon.de
+$discard,site=amazon.fr
